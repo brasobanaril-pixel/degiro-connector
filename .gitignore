@@ -1,0 +1,38 @@
+# ROOT FOLDERS
+/.tox
+/.vscode
+/bat
+/build
+/dist
+/logs
+/notes
+/dump
+
+# ROOT FILES
+/src/*.egg-info
+/*.py
+!/setup.py
+
+# FOLDERS
+__pycache__
+
+# FILES
+.coverage
+*.bat
+*.csv
+*.db
+*.json
+*.ini
+*.ipynb
+*.log
+*.pickle
+*.png
+*.sh
+*.txt
+*.xlsx
+*.lock
+!*template.json
+!pytest.ini
+
+# IDEs
+.idea
